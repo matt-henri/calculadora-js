@@ -5,14 +5,16 @@
 }
 
 body {
-    background: linear-gradient(white white white);
+    background-color: rgb(238, 247, 255);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     padding: 30px 0;
 }
 
 .calculator {
     width: 400px;
     margin: 0 auto;
-    background-color: white;
+    background: linear-gradient(#69e4bf, #269ca5, #17559c);
     padding: 20px;
     border-radius: 12px;
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.815);
