@@ -3,4 +3,7 @@
 const display = document.getElementById ( 'display' )
 const numeros = document.querySelectorAll ( '[id*=tecla]' )
 
-console.log(numeros)
+
+const inserirNumero = (evento) => display.textContent = evento
+
+console.log(numero => numero.addEventListener('click', inserirNumero) )
